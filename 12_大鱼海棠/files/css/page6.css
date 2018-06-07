@@ -1,0 +1,95 @@
+main{
+	padding-bottom: 40px;
+}
+main h3{
+	color: #923c3b;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 60px
+}
+main table{
+	width: 50%;
+	border-collapse: collapse;
+	margin: 10px auto;
+	text-align: center;
+}
+main td,main tr{
+	line-height: 36px;
+}
+main p{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 28px;
+}
+main p.p1{
+	width: 35%;
+}
+main p.p1 span{
+	display: inline-block;
+	margin-left: -50px;
+	margin-top: 10px;
+	color: #e46427;
+	padding: 5px 2px 5px 8px;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 50%;
+}
+main .p2{
+	text-indent: 2em;
+	margin-bottom: 10px;
+	width: 80%;
+}
+main form{
+	width: 50%;
+	margin: 20px auto;
+}
+main form span{
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+main form input{
+	width: 350px;
+	line-height: 35px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+main form textarea{
+	width: 350px;
+	height: 200px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+main button{
+	display: block;
+	width: 60px;
+	height: 35px;
+	margin: 20px auto;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+}
+main .bizhi{
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+main .bizhi li{
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+

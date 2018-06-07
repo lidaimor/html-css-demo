@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<header class="clearfix">
+		<img src="../../img/logo.jpg" width="135" height="56">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="shijian.html">事件</a></li>
+			<li><a href="chanpin.html">产品</a></li>
+			<li><a href="dingzhi.html">订制</a></li>
+			<li><a href="quanzi.html">圈子</a></li>
+			<li><a href="hezuo.html">合作</a></li>
+		</ul>
+	</header>
+	<main>
+		<img src="../../img/1.jpg" width="100%" height="450" id="ban">
+		<button>></button>
+	</main>
+	<footer class="clearfix">
+		<div>
+		<img src="../../img/image2.jpg" width="120" height="120">
+		<p>隐私保护　萨蒂诺花店----sartino-florist　版权所有 蜀ICP备15004809<br>
+
+客户服务QQ：409976640　服务邮箱：sartino.cn@gmail.com</p></div>
+	</footer>
+	<script>
+		var oImg=document.getElementById("ban");
+		var oBtn=document.getElementsByTagName("button")[0];
+		var i=1;
+		oBtn.onclick=function(){
+			i++;
+			i=i>3?1:i;
+			oImg.src="../../img/"+i+".jpg";
+		}
+	</script>
+</body>
+</html>

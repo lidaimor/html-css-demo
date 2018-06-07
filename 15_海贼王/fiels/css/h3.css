@@ -1,0 +1,17 @@
+body{
+	/*background: url(../../images/bg13.jpg);*/
+	background-size: 100%;
+}
+main ul.ul1{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+main ul.ul1 li{
+	width: 30%;
+}
+main ul.ul1 li img{
+	width: 280px;
+	height: 400px;
+	display: block;
+}

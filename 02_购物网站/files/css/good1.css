@@ -1,0 +1,46 @@
+main div{
+	width: 800px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+main img{
+	border: 1px solid gray;
+	border-radius: 10px;
+	display: block;
+	float: left;
+}
+main p{
+	border-radius: 5px;
+	background-color: #d3c4a5;
+	width: 500px;
+	float: right;
+	padding: 10px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+main button{
+	margin-left: 190px;
+}
+main button,main a{
+	width: 120px;
+	line-height: 40px;
+	background-color: #e6e6e6;
+	border: 1px solid olive;
+	border-radius: 5px;
+	font-size: 16px;
+	float: left;
+	margin-top: 10px;
+}
+main a{
+	text-align: center;
+	line-height: 40px;
+	color: #000;
+	margin-left: 40px;
+}
+main button:hover,main a:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: orange;
+}
+

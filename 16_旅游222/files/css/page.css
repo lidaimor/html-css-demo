@@ -1,0 +1,80 @@
+main{
+	background-color: lavenderblush;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #584421;
+}
+main ul.t1 li a{
+	color: #000;
+}
+main h2{
+	text-align: center;
+	font-size: 44px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #617d44;
+}
+main .p1{
+	width: 60%;
+	margin: 10px auto;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: gray;
+	text-align: center;
+}
+main h3{
+	color: #484848;
+	text-align: center;
+	line-height: 80px;
+}
+main p{
+	font-size: 15px;
+	color: gray;
+	line-height: 28px;
+	width: 65%;
+	margin: 0 auto;
+	text-indent: 2em;
+}
+form{
+	width: 450px;
+	margin: 0 auto;
+}
+form input{
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+	margin-bottom: 15px;
+}
+form textarea{
+	width: 300px;
+	height: 150px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: rgba(0,0,0,0.2);
+	padding: 10px;
+	margin-bottom: 15px;
+}
+form button{
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: #e6e6e6;
+	padding: 10px;
+	width: 80px;
+	height: 35px;
+	display: block;
+	margin-left: 180px;
+}
+form span{
+	display: inline-block;
+	width: 60px;
+	vertical-align: top;
+	font-size: 15px;
+}

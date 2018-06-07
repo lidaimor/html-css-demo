@@ -1,0 +1,39 @@
+main{
+	background-color: #ebec9e;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color:#516488;
+}
+main ul.t1 li a{
+	color: #000;
+}
+main h2{
+	text-align: center;
+	font-size: 44px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #617d44;
+}
+main .p1{
+	width: 80%;
+	margin: 10px auto;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: gray;
+	text-align: center;
+}
+main div{
+	width: 70%;
+	margin: 20px auto;
+	background-color: lightyellow;
+	padding: 15px;
+	border-radius: 10px;
+}
+main div img{
+	display: inline-block;
+}

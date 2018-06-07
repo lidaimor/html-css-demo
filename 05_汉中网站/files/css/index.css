@@ -1,0 +1,48 @@
+header ul{
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	margin: 20px auto;
+}
+header ul li{
+	width: 8.5%;
+	line-height: 45px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+	box-shadow: 5px 5px 5px #666;
+}
+header ul li a{
+	color: #000;
+	display: block;
+	border-radius: 50%;
+}
+main{
+	margin: 30px auto;
+}
+main aside{
+	float: left;
+	width: 25%;
+}
+main aside img{
+	display: block;
+}
+main div.dis{
+	float: left;
+	width: 70%;
+}
+main div.dis h1{
+	margin-bottom: 20px;
+}
+main div.dis p{
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+footer p{
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	background-color: rgba(0,0,0,0.2);
+	line-height: 60px;
+	letter-spacing: 1.5px;
+	padding:5px;
+}

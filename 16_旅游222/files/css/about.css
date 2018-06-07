@@ -1,0 +1,74 @@
+main{
+	background-color: #dcedf9;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #e48b7e;
+}
+main ul.t1 li a{
+	color: #000;
+}
+main h2{
+	text-align: center;
+	font-size: 44px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #617d44;
+}
+main .p1{
+	width: 50%;
+	margin: 10px auto;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: gray;
+	text-align: center;
+}
+main .div1{
+	width: 80%;
+	margin: 10px auto;
+	background-color: #fff;
+	margin-bottom: 30px;
+	padding: 12px;
+}
+main .div1 img {
+	width: 460px;
+	height: 370px;
+	display: block;
+	float: left;
+	margin: 10px 20px 0 10px;
+}
+main .div1 h3{
+	font-size: 24px;
+	text-align: center;
+	color: #fd5c63;
+	line-height: 45px;
+}
+main .div1 h4{
+	font-size: 16px;
+	color: #383838;
+	line-height: 28px;
+}
+main .div1 p{
+	margin-top:10px;
+	line-height: 25px;
+	text-indent: 2em;
+	font-size: 14px;
+}
+main .role{
+	width: 70%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-around;
+}
+main .role li{
+	width: 23%;
+}
+main .role li img{
+	display: block;
+	width: 200px;
+	height: 200px;
+}

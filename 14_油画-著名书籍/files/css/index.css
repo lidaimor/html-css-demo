@@ -1,0 +1,39 @@
+body{
+	height: 800px;
+	width: 100%;
+	background: url(../../images/bg4.jpg);
+	background-size: 100%;
+}
+main{
+	width: 85%;
+	margin: 0 auto;
+}
+main p{
+	width: 60%;
+	line-height: 28px;
+	font-size: 15px;
+	float: right;
+	margin-bottom: 20px;
+	height: 270px;
+}
+p:nth-of-type(1){
+	text-indent: 2em;
+	padding-top: 30px;
+}
+p:nth-of-type(2){
+	padding-top: 50px;
+}
+main img{
+	display: block;
+	margin:10px auto;
+	box-shadow: 5px 5px 5px #666;
+	float: left;
+	border-radius: 10px;
+}
+main h2{
+	float: right;
+	width: 60%;
+	text-align: center;
+	text-shadow: 3px 3px 3px #666;
+	letter-spacing: 10px;
+}

@@ -1,0 +1,63 @@
+*{box-sizing: border-box;}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,form,table,a,div,img{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:before,.clearfix:after{display: block; content: ""}
+.clearfix:after{clear:both;}
+body{
+	background: url(../../img/body_bg.jpg) repeat-x;
+	background-color: #fffbf2;
+	padding-top: 30px;
+}
+body h1{
+	text-align: center;
+	line-height: 40px;
+	font-size: 40px;
+}
+body table{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #116b07;
+	background-color: olive;
+	text-align: center;
+	line-height: 45px;
+}
+body table tr{
+	height: 45px;
+}
+body table td,body table tr{
+	background-color: snow;
+	width: 160px;
+}
+body .btn{
+	width: 300px;
+	margin: 50px auto;
+}
+body button,body a{
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid olive;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 40px;
+}
+body a{
+	display: inline-block;
+	color: #000;
+	background-color: #e6e6e6;
+}
+body button:hover,a:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: orange;
+}
+

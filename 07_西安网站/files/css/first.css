@@ -1,0 +1,54 @@
+*{box-sizing: border-box;}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,form,table,a,div,img,body{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix:before,.clearfix:after{display: block; content: ""}
+.clearfix:after{clear:both;}
+li{
+	list-style: none;
+}
+body{
+	background: url(../../img/bg3.jpg);
+	background-size: 100%;
+}
+header h1{
+	text-align: center;
+	line-height: 40px;
+	margin: 20px auto;
+	letter-spacing: 10px;
+}
+footer{
+	width: 85%；
+	margin: 20px auto;
+}
+footer ul{
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-around;
+}
+footer ul li{
+	width: 15%;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	border: 1px solid olive;
+	line-height: 40px;
+	text-align: center;
+}
+footer ul li a{
+	color: #000;
+	letter-spacing: 20px;
+	display: block;
+}
+footer ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: snow;
+}

@@ -1,0 +1,61 @@
+main{
+	background-color: #e6e6e6;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #584421;
+}
+main ul.t1 li a{
+	color: #000;
+}
+main h2{
+	text-align: center;
+	font-size: 44px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #617d44;
+}
+main .p1{
+	width: 60%;
+	margin: 10px auto;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: gray;
+	text-align: center;
+}
+main .div1{
+	width: 80%;
+	margin: 10px auto;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+main .se{
+	width: 75%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	padding: 10px;
+}
+main .se li{
+	width: 32.5%;
+}
+main .se li img{
+	width: 320px;
+	height: 200px;
+	display: block;
+}
+main .se li h3{
+	color: #3c3c3c;
+	line-height: 30px;
+	font-size: 15px;
+}
+main .se li p{
+	color: #888;
+	font-size: 13px;
+	line-height: 24px;
+}

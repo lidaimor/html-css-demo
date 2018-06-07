@@ -1,0 +1,48 @@
+main h1{
+	padding: 10px 30px;
+	font-size: 24px;
+}
+main p{
+	width: 95%;
+	padding-left: 30px;
+	line-height: 24px;
+}
+main img{
+	display: block;
+	margin: 10px auto;
+}
+main{
+	margin: 20px 0 30px 0;
+}
+main table{
+	width: 700px;
+	margin: 20px auto;
+	margin-bottom: 100px;
+}
+main table td,tr{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+main ul.fam{
+	width: 300px;
+	margin: 20px auto;
+}
+main ul.fam li{
+	line-height: 50px;
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	border-radius: 10px;
+	border: 1px solid gray;
+	margin-bottom: 20px;
+}
+main ul.fam li a{
+	color: #202020;
+	display: block;
+}
+main ul.fam li:hover{
+	background-color: #e6e6e6;
+}
+main ul.fam li:hover a{
+	color: olive;
+}

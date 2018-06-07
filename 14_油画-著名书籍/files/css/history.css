@@ -1,0 +1,31 @@
+body{
+	height: 800px;
+	width: 100%;
+	background: url(../../images/bg3.jpg);
+	background-size: 100%;
+}
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+main img{
+	display: block;
+	margin:10px auto;
+	box-shadow: 5px 5px 5px #666;
+	float: left;
+	border-radius: 10px;
+	margin-right: 30px;
+}
+main h1{
+	text-align: center;
+	line-height: 60px;
+	letter-spacing: 2px;
+	text-shadow: 3px 3px 3px #d2af6b;
+}
+main ul li p{
+	line-height: 26px;
+	text-indent: 2em;
+}
+main ul li h4{
+	line-height: 40px;
+}

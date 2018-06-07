@@ -1,0 +1,30 @@
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+main ul.nav{
+	width: 150px;
+	float: left;
+	margin-top: 110px;
+}
+main ul.nav li{
+	width: 130px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+main ul.nav li a{
+	color: #000;
+	display: block;
+}
+main ul.nav li a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: snow;
+}
+main .right{
+	width: 80%;
+	float: left;
+	margin-left: 50px;
+}

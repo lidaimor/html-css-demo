@@ -1,0 +1,66 @@
+main h1{
+	font-size: 24px;
+	color: #484871;
+}
+main ul.page1{
+	width: 95%;
+	margin:0 auto;
+}
+main ul.page1 li{
+	margin: 20px 0;
+}
+main ul.page1 li h1,main ul.page1 li p{
+	margin-bottom: 20px;
+}
+main{
+	width: 90%;
+	margin: 20px auto;
+}
+main form{
+	width: 40%;
+	margin: 80px auto;
+}
+main input{
+	width: 300px;
+	height: 35px;
+	background-color: rgba(0,0,0,0.1);
+	/*border: 1px solid gray*/
+	border: none;
+	border-radius: 10px;
+	padding:10px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 30px #666;
+}
+main button{
+	width: 60px;
+	height: 35px;
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid gray;
+	border-radius: 10px;
+	margin-left: 240px;
+
+}
+form span{
+	display: inline-block;
+	width: 150px;
+	font-size: 15px;
+	color: #46160c;
+}
+form .t1{
+	width:15px;
+	vertical-align: middle;
+}
+main ul.jd li img{
+	width: 320px;
+	height: 220px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+main ul.jd li p{
+	font-size: 15px;
+	width: 90%;
+	margin: 15px auto;
+	padding: 0 30px 0 0;
+}

@@ -1,0 +1,54 @@
+main{
+	background-color: lavenderblush;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #584421;
+}
+main ul.t1 li a{
+	color: #000;
+}
+main h2{
+	text-align: center;
+	font-size: 44px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: #617d44;
+}
+main .p1{
+	width: 60%;
+	margin: 10px auto;
+	line-height: 40px;
+	margin-bottom: 20px;
+	color: gray;
+	text-align: center;
+}
+main ul{
+	width: 83%;
+	margin: 0px auto;
+	padding: 0px 0 30px 0;
+	display: flex;
+	justify-content: space-around;
+}
+main ul li{
+	width: 24%;
+}
+main ul li img{
+	width: 240px;
+	height: 240px;
+	display: block;
+	margin: 5px auto;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+main ul li p{
+	text-align: center;
+	line-height: 36px;
+	color: #484848;
+	font-size: 15px;
+}
+

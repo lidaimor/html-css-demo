@@ -1,0 +1,36 @@
+body{
+	background: url(../../img/bg6.jpg);
+	background-size: 100%;
+}
+.header{
+	width:100%;
+	height:25vh;
+	padding-top:50px;
+	padding-left: 80px;
+}
+
+.main ul{
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-around;
+}
+.main ul li{
+	width:30%;
+}
+.main ul li:nth-of-type(3){
+	margin-right: 0%;
+}
+.main ul li img{
+	border:1px olive solid;
+	width:180px;
+	height:180px;
+	border-radius: 50%;
+}
+.main ul li p{
+	width: 90%;
+	margin:0 5%;
+    font-size: 15px;
+    line-height: 28px;
+    text-indent: 2em;
+}

@@ -1,0 +1,24 @@
+main h1{
+	padding: 10px 30px;
+	font-size: 28px;
+}
+main h3{
+	padding: 10px 40px;
+	font-size: 20px;
+}
+main ul li{
+	overflow: hidden;
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+main ul li img{
+	display: block;
+	float: left;
+	border: 1px solid #e6e6e6;
+	margin-right: 50px;
+}
+main ul li p{
+	width: 800px;
+	line-height: 28px;
+}

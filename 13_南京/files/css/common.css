@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	color:#000;
+}
+body{
+	font-size:12px;
+	font-family:Arial,Verdana,Tahoma,"微软雅黑","黑体";
+	line-height:120%;
+	background: url(../../img/bg.jpg);
+	background-size: 100%;
+	margin:0;
+	overflow-x:hidden;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,form,table{
+	margin:0;
+	padding:0;
+}
+a,img{
+	border:none;
+}
+img{
+	vertical-align:middle;
+	border:0;
+}
+li{
+	list-style:none;
+}
+i,em{
+	font-style:normal;
+}
+a{
+	text-decoration:none; 
+	color:#000000;
+	border:0;
+}
+.clearfix:before,.clearfix:after{
+	display:table;
+	content:"";
+}
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	*zoom:1;
+}
+.header{
+	width:100%;
+	height:25vh;
+	padding-top:50px;
+	padding-left: 80px;
+}
+.header .img1{
+	width: 90px;
+	height: 90px;
+	border-radius: 20px;
+	margin-left: 50px;
+	box-shadow: 0 0 20px #666;
+}
+.header ul{
+	width:75%;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 160px;
+}
+.header ul li{
+	width:70px;
+	height:70px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 70px;
+	float:left;
+}
+.header ul li a:hover{
+	color: darkred;
+	background-color: rgba(0,0,0,0.2);
+}
+.header ul li a{
+	color: #e6e6e6;
+	display:block;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #666;
+}

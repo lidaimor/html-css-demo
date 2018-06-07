@@ -1,0 +1,47 @@
+main{
+	width: 810px;
+	margin: 10px auto;
+}
+main .img1{
+	display: block;
+	margin: 0 auto;
+}
+main h1{
+	margin: 0px auto;
+	line-height: 80px;
+	text-align: center;
+	font-size: 42px;
+	color: #333333;
+}
+main .ul1{
+	margin: 40px 0;
+}
+main .ul1 li{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+main .ul1 li img{
+	float: left;
+	display: block;
+	margin-left: 120px;
+	margin-right: 35px;
+	border: 1px solid gray;
+	box-shadow: 3px 3px 3px #888888;
+}
+main .ul1 li h2{
+	font-size: 25px;
+	color: #666666;
+	line-height: 50px;
+}
+main .ul1 li h3{
+	font-size: 28px;
+	line-height: 55px;
+	color: #336666;
+}
+main .ul1 li p{
+	width: 480px;
+	float: right;
+	color: #999999;
+	font-size: 13px;
+	line-height: 20px;
+}

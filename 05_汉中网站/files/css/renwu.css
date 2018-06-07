@@ -1,0 +1,32 @@
+main h1{
+	font-size: 24px;
+	color: brown;
+}
+main{
+	width: 85%;
+	margin: 15px auto;
+}
+main p{
+	text-indent: 2em;
+}
+main h1{
+	line-height: 60px;
+}
+main ul li{
+	overflow: hidden;
+}
+main ul p{
+	line-height: 24px;
+	font-size: 15px;
+	margin-bottom: 10px;
+	width: 80%;
+	background-color: rgba(0,0,0,0.1);
+	padding: 10px;
+}
+main ul li img{
+	width: 240px;
+	height: 240px;
+	border-radius: 50%;
+	margin: 0 20px;
+	box-shadow: 0 0 30px #666;
+}

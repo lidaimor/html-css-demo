@@ -1,0 +1,53 @@
+body{
+	background: url(../../img/bg3.jpg);
+	background-size: 100%;
+}
+header h1{
+	text-align: center;
+	line-height: 40px;
+	margin: 20px auto;
+	letter-spacing: 10px;
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+}
+main h2{
+	line-height: 35px;
+	padding: 10px 20px;
+}
+main img{
+	margin: 20px auto;
+}
+main p{
+	line-height: 24px;
+	background-color: rgba(0,0,0,0.1);
+	padding: 10px;
+}
+main ul{
+	width: 150px;
+	float: left;
+	margin-top: 110px;
+}
+main ul li{
+	width: 130px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+main ul li a{
+	color: #000;
+	display: block;
+}
+main ul li a:hover{
+	background-color: rgba(0,0,0,0.3);
+	color: snow;
+}
+main .right{
+	width: 80%;
+	float: left;
+	margin-left: 50px;
+}
+

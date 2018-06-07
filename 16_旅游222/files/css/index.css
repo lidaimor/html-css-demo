@@ -1,0 +1,31 @@
+main .cir{
+	width: 300px;
+	height: 300px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+main h1{
+	font-size: 48px;
+	line-height: 40px;
+	font-family: "华文彩云";
+	color: gray;
+}
+main .cir h2{
+	font-size: 34px;
+	color: #fff;
+	line-height: 100px;
+}
+main .cir p{
+	padding: 10px;
+	color: #e6e6e6;
+	font-size: 16px;
+	line-height: 28px;
+}
+main div{
+	position: absolute;
+	top: 180px;
+	left: 480px;
+}

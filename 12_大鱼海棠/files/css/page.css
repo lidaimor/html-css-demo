@@ -1,0 +1,41 @@
+main h2{
+	color: #b2652d;
+	line-height: 60px;
+	text-align: center;
+	font-size: 34px;
+	font-family: "幼圆";
+	width: 15%;
+	margin: 10px auto;
+	letter-spacing: 2px;
+	text-shadow: 4px 3px 3px #b7a696;
+}
+main ul{
+	width: 80%;
+	margin: 20px auto;
+	margin-bottom: 30px;
+}
+main ul li{
+	margin-bottom: 10px;
+}
+main ul li p{
+	color: #644125; 
+	margin-bottom: 30px;
+}
+main ul li img{
+	float: left;
+	display: block;
+	margin-right: 30px;
+}
+main .ul_3{
+	width: 70%;
+	margin:20px auto;
+}
+main .ul_3 li{
+	width: 50%;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	float: left;
+	height: 110px;
+}
+main .ul_3 h4,main .ul_3 h5,main .ul_3 p{
+	line-height: 30px;
+}

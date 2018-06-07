@@ -1,0 +1,44 @@
+body{
+	background: url(../../img/bg9.jpg);
+	background-size: 100%;
+}
+.header{
+	width:100%;
+	height:25vh;
+	padding-top:50px;
+	padding-left: 80px;
+}
+.main .main_1 img{
+	width:280px;
+	height:180px;
+	margin-right: 10%;
+	float:right;
+	border:1px gray solid;
+	padding: 3px;
+	margin-top: 20px;
+}
+.main .main_1 p{
+	float:left;
+	width:56%;
+	margin: 30px 20px 20px 90px;
+	font-size: 15px;
+	line-height: 28px;
+	text-indent:2em;
+	background-color: rgba(0,0,0,0.1);
+	padding: 10px;
+}
+.main ul{
+	padding-top: 2%;
+	width:90%;
+	margin:0 10%;
+}
+.main ul li{
+	width:47%;
+	height:1%;
+	float:left;
+	border-bottom:1px olive solid;
+}
+.main ul li p{
+	line-height: 30px;
+	font-size:15px;
+}

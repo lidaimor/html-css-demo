@@ -1,0 +1,28 @@
+content{
+	float: left;
+	width: 70%;
+}
+content h1{
+	line-height: 60px;
+	margin-top: 26px;
+	padding-left: 180px;
+}
+content h4{
+	line-height: 30px;
+}
+content p{
+	line-height: 28px;
+	font-size: 15px;
+	text-indent: 2em;
+	background-color: #e6e6e6;
+	color: #222;
+	padding: 10px;
+	border-radius: 10px;
+}
+main .p1{
+	margin: 10px auto;
+}
+main img{
+	display: block;
+	margin: 10px auto;
+}

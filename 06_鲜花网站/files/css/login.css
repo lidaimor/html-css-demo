@@ -1,0 +1,65 @@
+main{
+	overflow: hidden;
+}
+main h2{
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 90px;
+	letter-spacing: 5px;
+}
+main form{
+	width: 430px;
+	margin: 40px auto;
+}
+main form input{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	padding:10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+main form span{
+	display: inline-block;
+	width: 80px;
+}
+main a{
+	width: 80px;
+	border: 1px solid gray;
+	margin: 10px 0;
+	margin-left: 170px;
+	font-size: 16px;
+	display: block;
+	color: #202020;
+    background-color: lemonchiffon;
+	display: block;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 5px;
+}
+main a:hover{
+	background-color: #e0cf81;
+	color: #000;
+}
+table{
+	width: 600px;
+	margin: 30px auto;
+}
+table tr{
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: darkred;
+}
+.a1,.a2{
+	float: left;
+	margin-bottom: 50px;
+}
+.a1{
+	margin-left: 500px;
+}
+.ha{
+	margin-top: 50px;
+}
+

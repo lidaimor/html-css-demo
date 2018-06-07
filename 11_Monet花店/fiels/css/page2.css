@@ -1,0 +1,44 @@
+main{
+	width: 85%;
+	margin: 0 auto;
+}
+main .img3{
+	display: block;
+	margin: 20px auto;
+}
+main .img4{
+	border: 1px solid #666666;
+	padding: 7px;
+}
+main form{
+	width: 50%;
+	margin:10px auto;
+}
+main form input{
+	margin-bottom: 15px;
+}
+main form .tex{
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: #e6e6e6;
+}
+main span{
+	display: inline-block;
+	width: 150px;
+}
+main button{
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: #e6e6e6;
+	margin-top: 20px;
+	margin-left: 300px;
+}
+form select{
+	width: 150px;
+	height: 40px;
+	margin-bottom: 15px;
+} 

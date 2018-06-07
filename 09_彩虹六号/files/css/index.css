@@ -1,0 +1,43 @@
+body{
+	background: url(../../img/bg.jpg);
+	background-size: 100%;
+}
+main{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+main p{
+	width: 75%;
+	float: right;
+	padding: 15px;
+	color: #000;
+	font-size: 14px;
+	line-height: 28px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+main ul{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 300px;
+}
+main ul p{
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 10px;
+	color: lightsalmon;
+}
+main ul:nth-of-type(1){
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+main ul:nth-of-type(2){
+	position: absolute;
+	left: 800px;
+	bottom: 20px;
+}
+main ul p span{
+	display: inline-block;
+	width: 80px;
+}

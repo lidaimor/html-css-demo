@@ -1,0 +1,32 @@
+body{
+	height: 800px;
+	width: 100%;
+	background: url(../../images/bg10.jpg);
+	background-size: 100%;
+}
+main{
+	width: 95%;
+	margin: 0 auto;
+}
+main ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 30px auto;
+}
+main ul li img{
+	width: 380px;
+	height: 280px;
+	box-shadow: 5px 5px 5px #666;
+	border-radius: 10px;
+}
+main ul li img.img1{
+	width: 260px;
+	height: 320px;
+}
+main ul li p{
+	line-height: 40px;
+	text-align: center;
+	color: brown;
+	font-size: 18px;
+}

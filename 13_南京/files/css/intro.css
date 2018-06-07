@@ -1,0 +1,40 @@
+body{
+	background: url(../../img/bg10.jpg);
+	background-size: 100%;
+}
+.header{
+	width:100%;
+	height:25vh;
+	padding-top:50px;
+	padding-left: 80px;
+}
+form{
+	width: 40%;
+	margin: 50px auto;
+	margin-top: 100px;
+}
+form input{
+	margin-bottom: 15px;
+}
+form .t1{
+	border: 1px solid gray;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	width: 300px;
+	height: 35px;
+}
+form button{
+	width: 80px;
+	height: 40px;
+	border: 1px solid gray;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin-left: 280px;
+}
+form span{
+	width: 100px;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 15px;
+	line-height: 18px;
+}

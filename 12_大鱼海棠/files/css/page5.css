@@ -1,0 +1,24 @@
+main{
+	padding-bottom: 40px;
+}
+main h3{
+	color: #923c3b;
+	letter-spacing: 5px;
+	text-align: center;
+	line-height: 60px
+}
+main table{
+	width: 50%;
+	margin-left: 200px;
+	float: left;
+	border-collapse: collapse;
+	margin-top: 60px;
+	text-align: center;
+}
+main td,main tr{
+	line-height: 36px;
+}
+main img{
+	margin-left: 30px;
+}
+

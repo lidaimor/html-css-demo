@@ -1,0 +1,42 @@
+body{
+	background: url(../../img/bg3.jpg);
+	background-size: 100%;
+}
+main h2{
+	line-height: 100px;
+}
+main .ul2{
+	display: flex;
+	width: 90%;
+}
+main .right .ul2 h3{
+	font-size: 20px;
+	color: #333;
+	padding-left: 35px;
+}
+main .right .ul2 img{
+	width: 280px;
+	height: 200px;
+	margin: 20px 15px;
+}
+main .ul2{
+	width: 90%;
+	margin-left: 0px;
+}
+main .right li{
+	width: 33.3%;
+}
+main .right li a{
+	display: block;
+	text-align: center;
+	color: #222;
+	width: 100px;
+	line-height: 35px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.1);
+	margin-left: 100px;
+}
+main .right li a:hover{
+	background-color: rgba(0,0,0,0.4);
+	color: #e6e6e6;
+}

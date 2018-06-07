@@ -1,0 +1,43 @@
+main h1{
+	font-size: 24px;
+	color: darkred;
+}
+main{
+	width: 85%;
+	margin: 15px auto;
+}
+main p{
+	text-indent: 2em;
+}
+main h1{
+	line-height: 60px;
+}
+main ul li{
+	overflow: hidden;
+}
+main ul .li1 p{
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 15px;
+}
+main ul li img{
+	width: 300px;
+	height: 230px;
+	margin: 10px 15px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #666;
+	border: 1px solid gray;
+}
+main ul .li2 p{
+	margin-top: 30px;
+	width: 500px;
+	float: left;
+	margin-right: 120px	
+}
+main ul .li2 img{
+	float: left;
+	margin-top: -20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 30px #666;
+	border: none;
+}

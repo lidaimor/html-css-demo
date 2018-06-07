@@ -1,0 +1,27 @@
+main img{
+	display: block;
+}
+main h1{
+	color: #333333;
+	text-align: center;
+	line-height: 100px;
+}
+main ul{
+	width: 60%;
+	margin:20px auto;
+	display: flex;
+	justify-content: space-around;
+}
+main ul li{
+	width: 33%;
+}
+main ul li h5{
+	padding: 30px 45px;
+	color: #0088cc;
+}
+main ul li p{
+	width: 60%;
+	color: #666666;
+	font-size: 14px;
+	line-height: 20px;
+}

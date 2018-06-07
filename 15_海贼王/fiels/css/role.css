@@ -1,0 +1,40 @@
+body{
+	background: url(../../images/bg3.jpg);
+	background-size: 100%;
+}
+p{
+	width: 60%;
+	margin: 0 auto;
+	line-height: 28px;
+}
+table{
+	width: 800px;
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 20px;
+}
+table tr,th{
+	line-height: 35px;
+}
+form{
+	width: 600px;
+	margin: 20px auto;
+}
+form input{
+	margin-bottom: 15px;
+}
+form .t1{
+	width: 300px;
+	height: 40px;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+form button{
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	border: 1px solid gray;
+	width: 80px;
+	height: 40px;
+	margin-left: 150px;
+}

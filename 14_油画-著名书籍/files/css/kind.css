@@ -1,0 +1,46 @@
+body{
+	height: 800px;
+	width: 100%;
+	background: url(../../images/bg7.jpg);
+	background-size: 100%;
+}
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+main ul{
+	width: 100%;
+	margin-bottom: 30px;
+}
+main ul li{
+	float: left;
+	width: 45%;
+	margin-right: 40px;
+}
+main p{
+	text-indent: 2em;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+main img{
+	width: 500px;
+	height: 350px;
+	box-shadow: 5px 5px 5px #b58e5c;
+	border-radius: 10px;
+}
+main ul li h3{
+	line-height: 60px;
+	text-align: center;
+}
+main .pho{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+main .pho h4{
+	text-align: center;
+	line-height: 50px;
+}
+main .p1{
+	text-indent: 0;
+}

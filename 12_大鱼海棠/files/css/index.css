@@ -1,0 +1,73 @@
+body{
+	background: url(../../img/bg.png) no-repeat;
+	background-size: 100% 700px;
+	position: relative;
+	height: 700px;
+	padding-top: 20px;
+}
+header img{
+	position: absolute;
+	right: 150px;
+	top: 150px;
+	border-radius: 50%;
+	box-shadow:0px 0px 10px 10px #bc2e22;
+}
+header ul{
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px auto;
+}
+header ul li{
+	width: 9.7%;
+}
+header ul li a{
+	color: #fff;
+	display: block;
+	background-color: rgba(0,0,0,0.4);
+	border: 1px solid gray;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+header ul li a:hover{
+	color: #bc2e22;
+	background-color: rgba(0,0,0,0.6);
+}
+main .text{
+	width: 45%;
+	padding: 20px;
+}
+main h1{
+	color: #fff;
+	line-height: 50px;
+	text-align: center;
+}
+main .text p{
+	color: lightyellow;
+	font-size: 14px;
+	line-height: 30px;
+	text-indent: 2em;
+}
+main .ping{
+	width: 45%;
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 30px;
+	padding: 20px;
+}
+main .ping .p1{
+	color: #e8b98d;
+}
+main .ping .p2{
+	color:#b2652d;
+}
+main .ping .p3{
+	color: #644125;
+}
+main p span{
+	display: block;
+	margin-left:340px;
+}
+

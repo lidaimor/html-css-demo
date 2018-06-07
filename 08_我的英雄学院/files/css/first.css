@@ -1,0 +1,153 @@
+main{
+	position: relative;
+}
+main h2{
+	padding: 5px 130px;
+	margin: 10px auto;
+	letter-spacing: 3px;
+}
+main p{
+	width: 90%;
+	padding: 10px 20px;
+	margin: 0 auto;
+	line-height: 24px;
+	font-size: 14px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+}
+main img{
+	margin: 10px auto;
+	display: inline-block;
+	border:1px solid olive;
+	border-radius: 5px;
+	margin-left: 120px;
+}
+main h2.h21{
+	padding: 10px 20px;
+}
+main p.p1{
+	width: 40%;
+	float: left;
+	margin-left: 30px;
+	line-height: 28px;
+	background-color: snow;
+}
+main img.img1{
+	margin-top: -50px;
+}
+main .role{
+	width: 80%;
+	float: left;
+}
+main .role li{
+	overflow: hidden;
+}
+main .role li img{
+	float: left;
+	margin-right: 25px;
+	display: block;
+	vertical-align: middle;
+}
+main .role li p{
+	width: 65%;
+	background-color: lightyellow;
+}
+main .role li h4{
+	width: 65%;
+	padding: 10px 10px;
+}
+main .nav{
+	width: 20%;
+	position: absolute;
+	top: 260px;
+	right: 70px;
+}
+main .nav li{
+	width: 70%;
+	margin-bottom: 10px;
+}
+main .nav li a{
+	color: #000;
+	background-color: lightcyan;
+	border-radius: 5px;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border: 1px solid olive;
+}
+main .nav li a:hover{
+	background-color: snow;
+	color: darkred;
+}
+main .role1{
+	width: 70%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+main .role1 li{
+	width: 32%;
+}
+main .role1 li h4{
+	text-align: right;
+}
+main .role1 li img{
+	border: 1px solid orange;
+}
+main h2.h2_btn5{
+	text-align: center;
+	width: 100%;
+	line-height: 50px;
+	background-color: #e6e6e6;
+}
+main table{
+	width: 700px;
+	margin: 20px auto;
+	background-color: rgba(0,0,0,0.1);
+}
+main table th,main table td{
+	line-height: 35px;
+	text-align: center;
+}
+th:nth-of-type(1){
+	width: 10%;
+}
+main ul#role2{
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: 30px;
+}
+main ul#role2 h4{
+	text-align: center;
+	font-size: 15px;
+}
+main form{
+	width: 500px;
+	margin: 20px auto;
+	margin-top: 80px;
+}
+main .t1{
+	width: 300px;
+	height: 35px;
+	background-color: #e6e6e6;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding:10px;
+	margin-bottom: 20px;
+}
+main button{
+	width: 60px;
+	height: 35px;
+	background-color: #e6e6e6;
+	border: 1px solid gray;
+	border-radius: 10px;
+
+}
+form span{
+	display: inline-block;
+	width: 180px;vertical-align: top;
+}
+main form textarea{
+	width: 300px;height: 150px;
+}

@@ -1,0 +1,35 @@
+main{
+	background-color: #56635c;
+	padding-top: 30px;
+	box-shadow: 5px 10px 10px gray;
+}
+main .img2{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+main .ul2{
+	width: 1058px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+main .ul2 li{
+	width: 248px;
+	margin-bottom: 20px;
+}
+main .ul2 li img{
+	border: 2px solid gray;
+	border-radius: 3px;
+}
+main .ul2 li p{
+	color: #e6e6e6;
+	text-align: center;
+	line-height: 28px;
+}
+main .ul2 li h3{
+	color: lightcyan;
+	text-align: center;
+	font-size: 24px;
+}

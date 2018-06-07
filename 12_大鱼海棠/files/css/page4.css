@@ -1,0 +1,29 @@
+main p{
+	font-size: 14px;
+	background-color: rgba(0,0,0,0.1);
+	padding: 20px;
+	line-height: 28px;
+	text-indent: 2em;
+	float: left;
+	width: 60%;
+}
+main img:nth-of-type(1){
+	float: right;
+	margin: 0 10px 20px 20px; 
+	width: 36%;
+	height: 290px;
+	display: block;
+}
+main img:nth-of-type(2){
+	width: 100%;
+	height: 800px;
+}
+main ul.ul1{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+}
+main ul li{
+	line-height: 28px;
+	font-size: 14px;
+}

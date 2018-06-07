@@ -1,0 +1,46 @@
+body{
+	height: 800px;
+	width: 100%;
+	background: url(../../images/bg2.jpg);
+	background-size: 100%;
+}
+main{
+	width: 85%;
+	margin: 0 auto;
+}
+main h3{
+	line-height: 42px;
+	width: 120px;
+	margin: 20px auto;
+	background-color: rgba(0,0,0,0.2);
+	text-align: center;
+	box-shadow: 5px 5px 5px #666;
+	border-radius: 10px;
+	color: darkred;
+	letter-spacing: 1.5px;
+}
+main div{
+	width: 95%;
+	margin: 10px auto;
+}
+main>h4{
+	line-height: 36px;
+}
+main>p{
+	line-height: 24px;
+	font-size: 15px;
+	text-indent: 2em;
+	background-color: rgba(0,0,0,0.1);
+	padding:10px;
+}
+main div h4{
+	line-height: 50px;
+}
+main div p{
+	text-indent: 0;
+	line-height: 24px;
+}
+main div img{
+	margin: 10px auto;
+	box-shadow: 5px 5px 5px #666;
+}

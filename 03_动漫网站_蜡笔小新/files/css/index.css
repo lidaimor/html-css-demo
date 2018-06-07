@@ -1,0 +1,97 @@
+body{
+	background-color: #ddf9fd;
+}
+header{
+	position: relative;
+}
+header img{
+	position: absolute;
+	top: -20px;
+	left: 150px;
+	border: 1px solid olive;
+	border-radius: 10px;
+}
+header ul.nav{
+	width: 70%;
+	margin-left: 300px;
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 80px;
+}
+header ul.nav li{
+	width: 18%;
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+}
+header ul.nav li a{
+	color: #000;
+	display: block;
+	line-height: 60px;
+	text-align: center;
+	font-size: 16px;
+}
+header ul.nav li:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+header ul.nav li:hover a{
+	color: yellow;
+}
+main h1{
+	padding-left: 20px;
+	margin: 20px 0 20px 0;
+}
+main ul.img1{
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-around;
+	display: flex;
+}
+main ul.img1 li{
+	width: 40%;
+}
+main ul.img1 li img{
+	border: 1px solid olive;
+	border-radius: 5px;
+}
+main ul.movie{
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-around;
+	display: flex;
+	margin-bottom: 20px;
+}
+main ul.movie li{
+	width: 18%;
+}
+main ul.desc{
+	width: 90%;
+	margin: 0 auto;
+}
+main ul.desc li{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+main ul.desc li img{
+	display: block;
+	float: left;
+	margin-left: 100px;
+	margin-right: 50px;
+	border-radius: 5px;
+	border: 1px solid olive;
+}
+main ul.desc li p{
+	width: 1000px;
+	line-height: 24px;
+	text-align: center;
+}
+footer{
+	background-color: rgba(0,0,0,0.3);
+}
+footer p{
+	line-height: 50px;
+	padding:10px;
+	text-align: center;
+	font-size: 14px;
+	color: #202020;
+}
