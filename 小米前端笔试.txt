@@ -1,0 +1,23 @@
+1.  2 4 1 1 2 3 3
+2.  题意没有读明白
+3.function finSum(arr,s){
+			var p = [];
+			var i=0;
+			var res = [];
+			var j = arr.length-1;
+			while(i<j){
+				if(arr[i]+arr[j]<s)
+					i++;
+				else if(arr[i]+arr[j]>s)
+					j--;
+				else{
+					res = [];
+					res.push(arr[i],arr[j]);
+					i++;
+					j--;
+				}
+				if(res.length!=0)
+					p.push(res);
+			}
+			return p;
+		}
