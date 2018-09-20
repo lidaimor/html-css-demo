@@ -1,5 +1,11 @@
-1.  2 4 1 1 2 3 3
-2.  ÌâÒâÃ»ÓĞ¶ÁÃ÷°×
+ï»¿1.  2 4 1 1 2 3 3
+2.  function sum(a,b,c,d,e,f){
+			var n = 0;
+			for(var i in arguments){
+				n+=arguments[i];
+			}
+			return n;
+		}
 3.function finSum(arr,s){
 			var p = [];
 			var i=0;
